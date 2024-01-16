@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "react-js",
+			"path": "../../../.."
+		},
+		{
+			"name": "calculator",
+			"path": "../../../../../Practis/calculator"
+		}
+	],
+	"settings": {}
+}

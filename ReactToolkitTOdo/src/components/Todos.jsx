@@ -1,4 +1,5 @@
 import React from 'react'
+import './Todos.css'
 import { useSelector, useDispatch } from 'react-redux'
 import {removeTodo} from '../features/todo/todoSlice'
 
@@ -8,14 +9,17 @@ function Todos() {
 
   return (
     <>
-      <ul>
+      <div>
         {todos.map((todo) => (
-          <li key={todo.id}>
-            <div className='text-white'>{todo.text}</div>
-            <button onClick={() => dispatch(removeTodo(todo.id))}> x </button>
+          <li className='listItm' key={todo.id}>
+            <div className="checkbox-wrapper-11">
+              <input id={todo.id} type="checkbox" name="r" defaultValue={2} />
+              <label className='text' htmlFor={todo.id}>{todo.text}</label>
+            </div>
+            <button className='close-btn' onClick={() => dispatch(removeTodo(todo.id))}> x </button>
           </li>
         ))}
-      </ul>
+      </div>
     </>
   )
 }

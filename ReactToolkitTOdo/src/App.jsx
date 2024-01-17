@@ -5,8 +5,15 @@ function App() {
 
   return (
     <>
-      <AddTodo/>
-      <Todos/>
+      <div style={{display: "flex",
+        alignItems: "center",
+        justifyContent:"center",
+        flexDirection: "column",
+        marginTop: "50px",
+      }}>
+        <AddTodo/>
+        <Todos/>
+      </div>
     </>
   )
 }

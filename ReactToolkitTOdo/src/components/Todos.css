@@ -5,13 +5,13 @@
   border: 1px solid;
   padding: 10px 15px;
   width: 250px;
-  margin-right: 170px;
+  margin-right: 190px;
   margin-top: 20px;
   position: relative;
 }
 
 .text{
-    font-family:'Franklin Gothic Medium',sans-serif;
+  font-family:'Franklin Gothic Medium',sans-serif;
 }
 
 .close-btn {

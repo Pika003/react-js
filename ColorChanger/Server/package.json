@@ -1,0 +1,18 @@
+{
+  "name": "pika",
+  "version": "1.0.0",
+  "description": "learn backend for first time",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "pika"
+  ],
+  "author": "satyajit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
